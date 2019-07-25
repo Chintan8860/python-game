@@ -1,8 +1,5 @@
 from math import sqrt
-def set_matrix(n=3):
-    return n
-n=set_matrix(5)
-
+n=int(input("enter a game board size(ex:- 5  for ==> 5 x 5 game board): "))
 board = [""] * pow(n,2)
 gboard_len=int(sqrt(len(board)))
 line = '-' * pow(n,2)
